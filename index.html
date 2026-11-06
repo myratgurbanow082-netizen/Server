@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,16 +11,35 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
-  font-family: Arial;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+.container {
+  text-align: center;
 }
 h1 {
-  color: #222;
   letter-spacing: 8px;
+  color: #222;
+}
+p {
+  color: #888;
+}
+button {
+  background: #222;
+  color: white;
+  border: 0;
+  padding: 14px 25px;
+  border-radius: 8px;
 }
 </style>
 </head>
 <body>
+<div class="container">
 <h1>SERVER</h1>
+<p>Welcome to our test server</p>
+<button onclick="alert('Test server is working!')">
+Test Server
+</button>
+</div>
 </body>
 </html>
